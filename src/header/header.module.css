@@ -1,0 +1,123 @@
+#index_page {
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #323232;
+    color: white;
+}
+
+.profile_pic {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50px;
+    z-index: 99;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header_text {
+    position: relative;
+    margin-right: 50px;
+}
+
+.pre_text {
+    font-size: 30px ;
+    color: #FFD523;
+    float: left;
+}
+
+.hero_text {
+    font-size: 80px;
+}
+
+.description {
+    font-size: 30px;
+    float: left;
+    color: #FFD523;
+    position: absolute;
+    right: 0;
+}
+
+
+#index_page ul {
+    list-style-type: none;
+}
+
+.square {
+    background-color: #FFD523;
+    position: absolute;
+}
+
+.square_1 {
+    width: 20px;
+    height: 20px;
+    bottom: 10%;
+    left: 20%;
+}
+
+
+.square_2 {
+    width: 25px;
+    height: 25px;
+    top: 20%;
+    right: 10%;
+    transform: rotateZ(45deg);
+}
+
+
+.square_3 {
+    width: 25px;
+    height: 25px;
+    bottom: 20%;
+    right: 15%;
+    transform: rotateZ(45deg);
+}
+
+
+.square_4 {
+    width: 20px;
+    height: 20px;
+    top: 20%;
+    left: 10%;
+}
+
+
+.square_2 {
+    width: 25px;
+    height: 25px;
+    top: 20%;
+    right: 10%;
+    transform: rotateZ(45deg);
+}
+
+
+.circle {
+    background-color: #FFD523;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle_1 {
+    height: 20px;
+    width: 20px;
+    bottom: 40%;
+    left: 20%;
+}
+  
+.circle_2 {
+    height: 20px;
+    width: 20px;
+    bottom: 10%;
+    right: 60%;
+}
+
+@media (max-width: 786px) {
+    #index_page {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
